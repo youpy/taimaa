@@ -20,6 +20,7 @@ export default class Timer {
     source.onended = () => {
       if (this.status[id]) {
         fn();
+        this.clearTimeout(id);
       }
     };
 
