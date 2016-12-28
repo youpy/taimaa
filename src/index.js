@@ -19,8 +19,8 @@ export default class Timer {
     source.connect(this.audioCtx.destination);
     source.onended = () => {
       if (this.status[id]) {
-        fn();
         this.clearTimeout(id);
+        fn();
       }
     };
 
