@@ -3,7 +3,7 @@ export default class Timer {
     var frameCount = 1000;
 
     this.audioCtx = audioCtx;
-    this.id = 0;
+    this.id = 1;
     this.status = {};
     this.arrayBuffer = this.audioCtx.createBuffer(2, frameCount, this.audioCtx.sampleRate);
   }
