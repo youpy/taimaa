@@ -1,6 +1,6 @@
 {
   "name": "ya-stable-timer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yet another stable timer implementation using `ended` event fired by AudioBufferSourceNode",
   "scripts": {
     "test": "NODE_ENV=test mocha --growl",
