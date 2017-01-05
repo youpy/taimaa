@@ -52,7 +52,7 @@ describe('Timer', () => {
       var numCalls = 0;
 
       t.setInterval(() => {
-        numCalls += 1;
+        numCalls++;
       }, 1000);
 
       audioCtx.$processTo('00:00.500');
