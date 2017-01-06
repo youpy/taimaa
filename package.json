@@ -2,8 +2,12 @@
   "name": "taimaa",
   "version": "0.0.2",
   "description": "Yet another stable timer implementation using `ended` event fired by AudioBufferSourceNode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youpy/taimaa"
+  },
   "scripts": {
-    "test": "NODE_ENV=test mocha --growl",
+    "test": "NODE_ENV=test mocha",
     "test:watch": "yarn test -- --watch",
     "build": "babel src --out-dir lib",
     "prepublish": "npm run test && npm run build"
