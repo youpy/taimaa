@@ -1,5 +1,5 @@
 {
-  "name": "ya-stable-timer",
+  "name": "taimaa",
   "version": "0.0.2",
   "description": "Yet another stable timer implementation using `ended` event fired by AudioBufferSourceNode",
   "scripts": {

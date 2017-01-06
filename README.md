@@ -1,11 +1,17 @@
-# ya-stable-timer
+# taimaa
 
 Yet another stable timer implementation using `ended` event fired by AudioBufferSourceNode
+
+## install
+
+```
+$ npm install taimaa
+```
 
 ## Usage
 
 ```javascript
-import Timer from 'ya-stable-timer';
+import Timer from 'taimaa';
 
 var t = new Timer(new AudioContext());
 
