@@ -1,4 +1,4 @@
-# taimaa
+# taimaa [![Build Status](https://travis-ci.org/youpy/taimaa.svg?branch=master)](https://travis-ci.org/youpy/taimaa)
 
 Yet another stable timer implementation using `ended` event fired by AudioBufferSourceNode
 
