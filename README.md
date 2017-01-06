@@ -14,8 +14,9 @@ $ npm install taimaa
 import Timer from 'taimaa';
 
 var t = new Timer(new AudioContext());
+var id;
 
-var id = t.setTimeout(fn, ms);
+id = t.setTimeout(fn, ms);
 t.clearTimeout(id);
 
 id = t.setInterval(fn, ms);
