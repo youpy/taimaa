@@ -34,8 +34,8 @@ export default class Timer {
     var id = this.id ++;
     var compositeFn = () => {
       if (this.status[id]) {
-        fn();
         this.setTimeout(compositeFn, ms);
+        fn();
       }
     };
 
