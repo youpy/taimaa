@@ -18,11 +18,11 @@
     "index.js",
     "lib"
   ],
+  "types": "taimaa.d.ts",
   "main": "index.js",
   "author": "youpy <youpy@buycheapviagraonlinenow.com>",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/preset-env": "^7.12.1",
     "@babel/cli": "^7.12.1",
