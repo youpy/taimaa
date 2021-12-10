@@ -16,6 +16,7 @@
     "package.json",
     "README.md",
     "index.js",
+    "taimaa.d.ts",
     "lib"
   ],
   "types": "taimaa.d.ts",
