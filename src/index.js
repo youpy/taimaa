@@ -5,11 +5,15 @@ export default class Timer {
     this.audioCtx = audioCtx;
     this.id = 1;
     this.status = {};
-    this.arrayBuffer = this.audioCtx.createBuffer(2, frameCount, this.audioCtx.sampleRate);
+    this.arrayBuffer = this.audioCtx.createBuffer(
+      2,
+      frameCount,
+      this.audioCtx.sampleRate
+    );
   }
 
   setTimeout(fn, ms) {
-    var id = this.id ++;
+    var id = this.id++;
     var source = this.audioCtx.createBufferSource();
 
     this.status[id] = true;
@@ -25,13 +29,13 @@ export default class Timer {
     };
 
     source.start();
-    source.stop(this.audioCtx.currentTime + (ms / 1000));
+    source.stop(this.audioCtx.currentTime + ms / 1000);
 
     return id;
   }
 
   setInterval(fn, ms) {
-    var id = this.id ++;
+    var id = this.id++;
     var compositeFn = () => {
       if (this.status[id]) {
         this.setTimeout(compositeFn, ms);
