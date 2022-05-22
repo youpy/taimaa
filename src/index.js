@@ -1,7 +1,5 @@
 export default class Timer {
-  constructor(audioCtx) {
-    var frameCount = 1;
-
+  constructor(audioCtx = new AudioContext(), frameCount = 44100) {
     this.audioCtx = audioCtx;
     this.id = 1;
     this.status = {};
