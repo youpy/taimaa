@@ -1,4 +1,4 @@
-# taimaa [![Build Status](https://travis-ci.org/youpy/taimaa.svg?branch=master)](https://travis-ci.org/youpy/taimaa)
+# taimaa [![Node.js CI](https://github.com/youpy/taimaa/actions/workflows/main.yml/badge.svg)](https://github.com/youpy/taimaa/actions/workflows/main.yml)
 
 ![taima](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Cannabis_leaf_2.svg/150px-Cannabis_leaf_2.svg.png)
 
@@ -13,7 +13,7 @@ $ npm install taimaa
 ## Usage
 
 ```javascript
-import Timer from 'taimaa';
+import Timer from "taimaa";
 
 var t = new Timer(new AudioContext());
 var id;
